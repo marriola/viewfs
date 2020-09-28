@@ -1,0 +1,19 @@
+{
+    "module": "music",
+    "verbose": false,
+
+    "music": {
+	"watch": {
+	    "collectionRoot": "/mnt/media/Music",
+	    "catalogPath": "music.csv.xz",
+	    "batchProcessingDelay": 5
+	},
+
+	"view": {
+	    "viewRoot": "/mnt/media/Music views",
+	    "allowNonEmpty": false,
+	    "socketPath": "/tmp/viewfs",
+	    "socketPort": 2376
+	}
+    }
+}
